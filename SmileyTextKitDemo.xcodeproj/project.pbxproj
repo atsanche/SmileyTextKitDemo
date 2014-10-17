@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		19A8C2FA19F0F096007D2291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8C2F919F0F096007D2291 /* AppDelegate.swift */; };
-		19A8C2FC19F0F096007D2291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8C2FB19F0F096007D2291 /* ViewController.swift */; };
 		19A8C2FF19F0F096007D2291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A8C2FD19F0F096007D2291 /* Main.storyboard */; };
 		19A8C30119F0F096007D2291 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A8C30019F0F096007D2291 /* Images.xcassets */; };
 		19A8C30419F0F096007D2291 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19A8C30219F0F096007D2291 /* LaunchScreen.xib */; };
 		19A8C31019F0F096007D2291 /* SmileyTextKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8C30F19F0F096007D2291 /* SmileyTextKitDemoTests.swift */; };
+		19A8C31A19F0F65A007D2291 /* Face.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19A8C31919F0F65A007D2291 /* Face.bundle */; };
+		19A8C31C19F0F8C7007D2291 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8C31B19F0F8C7007D2291 /* MainViewController.swift */; };
+		19A8C31E19F0F90B007D2291 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8C31D19F0F90B007D2291 /* ContentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		19A8C2F419F0F096007D2291 /* SmileyTextKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileyTextKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A8C2F819F0F096007D2291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19A8C2F919F0F096007D2291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19A8C2FB19F0F096007D2291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		19A8C2FE19F0F096007D2291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19A8C30019F0F096007D2291 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		19A8C30319F0F096007D2291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		19A8C30919F0F096007D2291 /* SmileyTextKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileyTextKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A8C30E19F0F096007D2291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19A8C30F19F0F096007D2291 /* SmileyTextKitDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyTextKitDemoTests.swift; sourceTree = "<group>"; };
+		19A8C31919F0F65A007D2291 /* Face.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Face.bundle; sourceTree = "<group>"; };
+		19A8C31B19F0F8C7007D2291 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		19A8C31D19F0F90B007D2291 /* ContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		19A8C2F619F0F096007D2291 /* SmileyTextKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				19A8C31919F0F65A007D2291 /* Face.bundle */,
 				19A8C2F919F0F096007D2291 /* AppDelegate.swift */,
-				19A8C2FB19F0F096007D2291 /* ViewController.swift */,
 				19A8C2FD19F0F096007D2291 /* Main.storyboard */,
 				19A8C30019F0F096007D2291 /* Images.xcassets */,
 				19A8C30219F0F096007D2291 /* LaunchScreen.xib */,
 				19A8C2F719F0F096007D2291 /* Supporting Files */,
+				19A8C31B19F0F8C7007D2291 /* MainViewController.swift */,
+				19A8C31D19F0F90B007D2291 /* ContentCell.swift */,
 			);
 			path = SmileyTextKitDemo;
 			sourceTree = "<group>";
@@ -194,6 +200,7 @@
 			files = (
 				19A8C2FF19F0F096007D2291 /* Main.storyboard in Resources */,
 				19A8C30419F0F096007D2291 /* LaunchScreen.xib in Resources */,
+				19A8C31A19F0F65A007D2291 /* Face.bundle in Resources */,
 				19A8C30119F0F096007D2291 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A8C2FC19F0F096007D2291 /* ViewController.swift in Sources */,
+				19A8C31E19F0F90B007D2291 /* ContentCell.swift in Sources */,
 				19A8C2FA19F0F096007D2291 /* AppDelegate.swift in Sources */,
+				19A8C31C19F0F8C7007D2291 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -339,6 +347,7 @@
 				INFOPLIST_FILE = SmileyTextKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Debug;
 		};
@@ -405,6 +414,7 @@
 				19A8C31519F0F096007D2291 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19A8C31619F0F096007D2291 /* Build configuration list for PBXNativeTarget "SmileyTextKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +423,7 @@
 				19A8C31819F0F096007D2291 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
